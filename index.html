@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div id="app">
+        <div class="chat-window">
+            <ul class="records">
+                <li class="bot"><span>来和我愉快地玩耍吧..</span></li>
+            </ul>
+        </div>
+        <div class="chat-input">
+            <div class="chat-input-area">
+                <textarea name="message" id="message" autofocus placeholder="说点什么吧"></textarea>
+            </div>
+            <div class="chat-input-send">
+                <button class="send" id="send-btn">发送</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
